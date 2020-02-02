@@ -18,7 +18,7 @@ grub_superuser: ubuntu
 grub_password: disabled
 
 # Set ROOT Password - Set the CRYPTED root password or leave it set to 'disabled' to skip this benchmark (default = disabled). Use the command 'mkpasswd --method=sha-512' in Linux to generate a new password.
-root_password: disabled
+root_password: $6$CGU2xbOqmpn3N$85gVJvmmEqDCWAssc4yR2CkpnFnx6BmG3.QYiV/autsgwkp4l/v2EVNfbG9OftmQliyYG8k9iSR09z9DORpUB1
 
 # Enable Mandatory Access Contorl - Set to 'selinux', 'apparmor', or 'disabled' (default = apparmor).
 access_control: apparmor
